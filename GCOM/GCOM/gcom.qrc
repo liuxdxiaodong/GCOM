@@ -1,0 +1,31 @@
+<RCC>
+    <qresource prefix="/GCOM">
+        <file>Resources/GCOM.png</file>
+        <file>Resources/CAD1.png</file>
+        <file>Resources/CAD2.png</file>
+        <file>Resources/CAD3.png</file>
+        <file>Resources/CAD4.png</file>
+        <file>Resources/Cutter1.png</file>
+        <file>Resources/Cutter2.png</file>
+        <file>Resources/Cutter3.png</file>
+        <file>Resources/LightOff.png</file>
+        <file>Resources/LightOn.png</file>
+        <file>Resources/Measure1.png</file>
+        <file>Resources/Measure2.png</file>
+        <file>Resources/Measure3.png</file>
+        <file>Resources/Window1.png</file>
+        <file>Resources/Window2.png</file>
+        <file>Resources/Window3.png</file>
+        <file>Resources/ZoomIn.png</file>
+        <file>Resources/ZoomOut.png</file>
+        <file>Resources/Main1.png</file>
+        <file>Resources/Main2.png</file>
+        <file>Resources/Main3.png</file>
+        <file>Resources/Main4.png</file>
+        <file>Resources/AxisDown.png</file>
+        <file>Resources/AxisLeft.png</file>
+        <file>Resources/AxisRight.png</file>
+        <file>Resources/AxisUp.png</file>
+        <file>Resources/ZoomFit.png</file>
+    </qresource>
+</RCC>

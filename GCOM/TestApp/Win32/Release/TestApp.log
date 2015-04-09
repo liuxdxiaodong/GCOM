@@ -1,0 +1,43 @@
+﻿Build started 2015/1/21 19:21:04.
+     1>Project "D:\important\post\PROJECT\project\GCOM\TestApp\TestApp.vcxproj" on node 5 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Release\TestApp.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I.\GeneratedFiles\Release /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Win32\Release\\" /Fd"Win32\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt main.cpp testblade.cpp
+         main.cpp
+         Include KSJApi.h
+         Include KSJCode.h
+         Include KSJApiA.h
+         Include KSJApiB.h
+         Include KSJApiC.h
+         Include KSJApiD.h
+         Include KSJApiE.h
+         Include KSJApiF.h
+         Include KSJApiG.h
+         Include KSJApiH.h
+         testblade.cpp
+         Include KSJApi.h
+         Include KSJCode.h
+         Include KSJApiA.h
+         Include KSJApiB.h
+         Include KSJApiC.h
+         Include KSJApiD.h
+         Include KSJApiE.h
+         Include KSJApiF.h
+         Include KSJApiG.h
+         Include KSJApiH.h
+         Generating Code...
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"D:\important\post\PROJECT\project\GCOM\Win32\Release\TestApp.exe" /NOLOGO /LIBPATH:D:\important\post\PROJECT\project\GCOM\Win32\Release\ CamBox.lib NCEngine.lib ImgProc.lib qtmain.lib QtCore4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Release\TestApp.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"D:\important\post\PROJECT\project\GCOM\Win32\Release\TestApp.pdb" /SUBSYSTEM:CONSOLE /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"D:\important\post\PROJECT\project\GCOM\Win32\Release\TestApp.lib" /MACHINE:X86 Win32\Release\main.obj
+         Win32\Release\testblade.obj
+         TestApp.vcxproj -> D:\important\post\PROJECT\project\GCOM\Win32\Release\TestApp.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"D:\important\post\PROJECT\project\GCOM\Win32\Release\TestApp.exe;#1" /manifest Win32\Release\TestApp.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Win32\Release\TestApp.unsuccessfulbuild".
+         Touching "Win32\Release\TestApp.lastbuildstate".
+     1>Done Building Project "D:\important\post\PROJECT\project\GCOM\TestApp\TestApp.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.12

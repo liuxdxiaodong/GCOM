@@ -1,0 +1,43 @@
+﻿Build started 2015/4/9 20:14:15.
+     1>Project "C:\Users\Xiaodong\Desktop\GCOM\GCOM\GCOM.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Release\GCOM.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I.\GeneratedFiles /I.\GeneratedFiles\Release /I.\..\ImageView\GeneratedFiles /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D QT_GUI_LIB /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Win32\Release\\" /Fd"Win32\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt gcom.cpp
+         gcom.cpp
+         Include KSJApi.h
+         Include KSJCode.h
+         Include KSJApiA.h
+         Include KSJApiB.h
+         Include KSJApiC.h
+         Include KSJApiD.h
+         Include KSJApiE.h
+         Include KSJApiF.h
+         Include KSJApiG.h
+         Include KSJApiH.h
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Xiaodong\Desktop\GCOM\Win32\Release\GCOM.exe" /NOLOGO /LIBPATH:C:\Users\Xiaodong\Desktop\GCOM\Win32\Release\ CamBox.lib ComPort.lib ImageView.lib NCEngine.lib ImgProc.lib qtmain.lib QtCore4.lib QtGui4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Release\GCOM.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\Xiaodong\Desktop\GCOM\Win32\Release\GCOM.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Xiaodong\Desktop\GCOM\Win32\Release\GCOM.lib" /MACHINE:X86 Win32\Release\GCOM.res
+         Win32\Release\gcbutton.obj
+         Win32\Release\gcom.obj
+         Win32\Release\qrc_gcom.obj
+         Win32\Release\moc_gcbutton.obj
+         Win32\Release\moc_gcom.obj
+         Win32\Release\moc_gtbutton.obj
+         Win32\Release\gtbutton.obj
+         Win32\Release\main.obj
+         GCOM.vcxproj -> C:\Users\Xiaodong\Desktop\GCOM\Win32\Release\GCOM.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Xiaodong\Desktop\GCOM\Win32\Release\GCOM.exe;#1" /manifest Win32\Release\GCOM.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Win32\Release\GCOM.unsuccessfulbuild".
+         Touching "Win32\Release\GCOM.lastbuildstate".
+     1>Done Building Project "C:\Users\Xiaodong\Desktop\GCOM\GCOM\GCOM.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:04.42

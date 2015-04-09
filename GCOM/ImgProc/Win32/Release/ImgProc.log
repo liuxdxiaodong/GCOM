@@ -1,0 +1,21 @@
+﻿Build started 2015/4/9 15:51:19.
+     1>Project "C:\Users\Xiaodong\Desktop\GCOM\ImgProc\ImgProc.vcxproj" on node 3 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Release\ImgProc.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I.\GeneratedFiles /I.\GeneratedFiles\Release /nologo /W1 /WX- /O2 /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_NO_DEBUG /D NDEBUG /D QT_CORE_LIB /D IMGPROC_LIB /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MD /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Win32\Release\\" /Fd"Win32\Release\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt imgproc.cpp
+         imgproc.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Xiaodong\Desktop\GCOM\Win32\Release\ImgProc.dll" /NOLOGO /LIBPATH:C:\Users\Xiaodong\Desktop\GCOM\Win32\Release\ qtmain.lib QtCore4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Release\ImgProc.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /PDB:"C:\Users\Xiaodong\Desktop\GCOM\Win32\Release\ImgProc.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Xiaodong\Desktop\GCOM\Win32\Release\ImgProc.lib" /MACHINE:X86 /DLL Win32\Release\imgproc.obj
+            Creating library C:\Users\Xiaodong\Desktop\GCOM\Win32\Release\ImgProc.lib and object C:\Users\Xiaodong\Desktop\GCOM\Win32\Release\ImgProc.exp
+         ImgProc.vcxproj -> C:\Users\Xiaodong\Desktop\GCOM\Win32\Release\ImgProc.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Xiaodong\Desktop\GCOM\Win32\Release\ImgProc.dll;#2" /manifest Win32\Release\ImgProc.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Win32\Release\ImgProc.unsuccessfulbuild".
+         Touching "Win32\Release\ImgProc.lastbuildstate".
+     1>Done Building Project "C:\Users\Xiaodong\Desktop\GCOM\ImgProc\ImgProc.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:10.94

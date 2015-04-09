@@ -1,0 +1,25 @@
+﻿Build started 2015/4/9 15:49:45.
+     1>Project "C:\Users\Xiaodong\Desktop\GCOM\NCEngine\NCEngine.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\NCEngine.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\CL.exe /c /I. /I.\GeneratedFiles /I.\GeneratedFiles\Debug /Zi /nologo /W1 /WX- /Od /Oy- /D UNICODE /D WIN32 /D QT_DLL /D QT_CORE_LIB /D NCENGINE_LIB /D _WINDLL /D _UNICODE /D UNICODE /Gm- /EHsc /MDd /GS /fp:precise /Zc:wchar_t- /Zc:forScope /Fo"Win32\Debug\\" /Fd"Win32\Debug\vc100.pdb" /Gd /TP /analyze- /errorReport:prompt ncengine.cpp
+         ncengine.cpp
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Xiaodong\Desktop\GCOM\Win32\Debug\NCEngine.dll" /NOLOGO /LIBPATH:C:\Users\Xiaodong\Desktop\GCOM\Win32\Debug\ qtmaind.lib QtCored4.lib QtNetworkd4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\NCEngine.dll.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Xiaodong\Desktop\GCOM\Win32\Debug\NCEngine.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Xiaodong\Desktop\GCOM\Win32\Debug\NCEngine.lib" /MACHINE:X86 /DLL Win32\Debug\moc_ncengine.obj
+         Win32\Debug\ncengine.obj
+         LINK : C:\Users\Xiaodong\Desktop\GCOM\Win32\Debug\NCEngine.dll not found or not built by the last incremental link; performing full link
+            Creating library C:\Users\Xiaodong\Desktop\GCOM\Win32\Debug\NCEngine.lib and object C:\Users\Xiaodong\Desktop\GCOM\Win32\Debug\NCEngine.exp
+         NCEngine.vcxproj -> C:\Users\Xiaodong\Desktop\GCOM\Win32\Debug\NCEngine.dll
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Xiaodong\Desktop\GCOM\Win32\Debug\NCEngine.dll;#2" /manifest Win32\Debug\NCEngine.dll.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\NCEngine.unsuccessfulbuild".
+         Touching "Win32\Debug\NCEngine.lastbuildstate".
+     1>Done Building Project "C:\Users\Xiaodong\Desktop\GCOM\NCEngine\NCEngine.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:08.53

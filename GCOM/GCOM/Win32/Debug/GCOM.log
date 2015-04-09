@@ -1,0 +1,33 @@
+﻿Build started 2015/4/9 15:49:53.
+     1>Project "C:\Users\Xiaodong\Desktop\GCOM\GCOM\GCOM.vcxproj" on node 2 (build target(s)).
+     1>InitializeBuildStatus:
+         Creating "Win32\Debug\GCOM.unsuccessfulbuild" because "AlwaysCreate" was specified.
+       CustomBuild:
+         All outputs are up-to-date.
+       ClCompile:
+         All outputs are up-to-date.
+         All outputs are up-to-date.
+       ResourceCompile:
+         All outputs are up-to-date.
+       Link:
+         C:\Program Files (x86)\Microsoft Visual Studio 10.0\VC\bin\link.exe /ERRORREPORT:PROMPT /OUT:"C:\Users\Xiaodong\Desktop\GCOM\Win32\Debug\GCOM.exe" /NOLOGO /LIBPATH:C:\Users\Xiaodong\Desktop\GCOM\Win32\Debug\ CamBox.lib ComPort.lib ImageView.lib NCEngine.lib ImgProc.lib qtmaind.lib QtCored4.lib QtGuid4.lib kernel32.lib user32.lib gdi32.lib winspool.lib comdlg32.lib advapi32.lib shell32.lib ole32.lib oleaut32.lib uuid.lib odbc32.lib odbccp32.lib /MANIFEST /ManifestFile:"Win32\Debug\GCOM.exe.intermediate.manifest" /MANIFESTUAC:"level='asInvoker' uiAccess='false'" /DEBUG /PDB:"C:\Users\Xiaodong\Desktop\GCOM\Win32\Debug\GCOM.pdb" /SUBSYSTEM:WINDOWS /TLBID:1 /DYNAMICBASE /NXCOMPAT /IMPLIB:"C:\Users\Xiaodong\Desktop\GCOM\Win32\Debug\GCOM.lib" /MACHINE:X86 Win32\Debug\GCOM.res
+         Win32\Debug\gcbutton.obj
+         Win32\Debug\gcom.obj
+         Win32\Debug\moc_gcbutton.obj
+         Win32\Debug\moc_gcom.obj
+         Win32\Debug\moc_gtbutton.obj
+         Win32\Debug\qrc_gcom.obj
+         Win32\Debug\gtbutton.obj
+         Win32\Debug\main.obj
+         LINK : C:\Users\Xiaodong\Desktop\GCOM\Win32\Debug\GCOM.exe not found or not built by the last incremental link; performing full link
+         GCOM.vcxproj -> C:\Users\Xiaodong\Desktop\GCOM\Win32\Debug\GCOM.exe
+       Manifest:
+         C:\Program Files (x86)\Microsoft SDKs\Windows\v7.0A\bin\mt.exe /nologo /verbose /outputresource:"C:\Users\Xiaodong\Desktop\GCOM\Win32\Debug\GCOM.exe;#1" /manifest Win32\Debug\GCOM.exe.intermediate.manifest
+       FinalizeBuildStatus:
+         Deleting file "Win32\Debug\GCOM.unsuccessfulbuild".
+         Touching "Win32\Debug\GCOM.lastbuildstate".
+     1>Done Building Project "C:\Users\Xiaodong\Desktop\GCOM\GCOM\GCOM.vcxproj" (build target(s)).
+
+Build succeeded.
+
+Time Elapsed 00:00:02.94

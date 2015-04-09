@@ -1,0 +1,10 @@
+[DLL]
+0 CamBox:
+0 ComPort:
+0 ImgProc:
+0 NCEngine:
+1 ImageView: CamBox, ImgProc
+
+[EXE]
+0 TestApp: CamBox, ImgProc, NCEngine
+0 GCOM: CamBox, ImgProc, NCEngine, ImageView

@@ -1,0 +1,81 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "GCOM", "GCOM\GCOM.vcxproj", "{1A47F5AE-754E-4984-A15A-334B4D069F0F}"
+	ProjectSection(ProjectDependencies) = postProject
+		{DF29CD57-C8F0-42E4-94D0-2E5248531207} = {DF29CD57-C8F0-42E4-94D0-2E5248531207}
+		{4CD63474-4546-4FD7-A2A5-3DE9C1A10FDC} = {4CD63474-4546-4FD7-A2A5-3DE9C1A10FDC}
+		{9EAC5276-A8EB-41E7-A302-A6370E03FF96} = {9EAC5276-A8EB-41E7-A302-A6370E03FF96}
+		{FBCDF292-41C5-40F7-9D45-09235FAC245A} = {FBCDF292-41C5-40F7-9D45-09235FAC245A}
+		{3F042CD9-5CA5-417F-BC48-8D2C223A9101} = {3F042CD9-5CA5-417F-BC48-8D2C223A9101}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "CamBox", "CamBox\CamBox.vcxproj", "{4CD63474-4546-4FD7-A2A5-3DE9C1A10FDC}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{31FC45BE-8B9E-4AF8-AAFD-77063D789D1C}"
+	ProjectSection(SolutionItems) = preProject
+		config.h = config.h
+		libcfg.h = libcfg.h
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "NCEngine", "NCEngine\NCEngine.vcxproj", "{FBCDF292-41C5-40F7-9D45-09235FAC245A}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImgProc", "ImgProc\ImgProc.vcxproj", "{9EAC5276-A8EB-41E7-A302-A6370E03FF96}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "TestApp", "TestApp\TestApp.vcxproj", "{23CBC931-EB7E-492D-BE87-CD9B8205EA14}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4CD63474-4546-4FD7-A2A5-3DE9C1A10FDC} = {4CD63474-4546-4FD7-A2A5-3DE9C1A10FDC}
+		{9EAC5276-A8EB-41E7-A302-A6370E03FF96} = {9EAC5276-A8EB-41E7-A302-A6370E03FF96}
+		{FBCDF292-41C5-40F7-9D45-09235FAC245A} = {FBCDF292-41C5-40F7-9D45-09235FAC245A}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ImageView", "ImageView\ImageView.vcxproj", "{3F042CD9-5CA5-417F-BC48-8D2C223A9101}"
+	ProjectSection(ProjectDependencies) = postProject
+		{4CD63474-4546-4FD7-A2A5-3DE9C1A10FDC} = {4CD63474-4546-4FD7-A2A5-3DE9C1A10FDC}
+		{9EAC5276-A8EB-41E7-A302-A6370E03FF96} = {9EAC5276-A8EB-41E7-A302-A6370E03FF96}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "ComPort", "ComPort\ComPort.vcxproj", "{DF29CD57-C8F0-42E4-94D0-2E5248531207}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Win32 = Debug|Win32
+		Release|Win32 = Release|Win32
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{1A47F5AE-754E-4984-A15A-334B4D069F0F}.Debug|Win32.ActiveCfg = Debug|Win32
+		{1A47F5AE-754E-4984-A15A-334B4D069F0F}.Debug|Win32.Build.0 = Debug|Win32
+		{1A47F5AE-754E-4984-A15A-334B4D069F0F}.Release|Win32.ActiveCfg = Release|Win32
+		{1A47F5AE-754E-4984-A15A-334B4D069F0F}.Release|Win32.Build.0 = Release|Win32
+		{4CD63474-4546-4FD7-A2A5-3DE9C1A10FDC}.Debug|Win32.ActiveCfg = Debug|Win32
+		{4CD63474-4546-4FD7-A2A5-3DE9C1A10FDC}.Debug|Win32.Build.0 = Debug|Win32
+		{4CD63474-4546-4FD7-A2A5-3DE9C1A10FDC}.Release|Win32.ActiveCfg = Release|Win32
+		{4CD63474-4546-4FD7-A2A5-3DE9C1A10FDC}.Release|Win32.Build.0 = Release|Win32
+		{FBCDF292-41C5-40F7-9D45-09235FAC245A}.Debug|Win32.ActiveCfg = Debug|Win32
+		{FBCDF292-41C5-40F7-9D45-09235FAC245A}.Debug|Win32.Build.0 = Debug|Win32
+		{FBCDF292-41C5-40F7-9D45-09235FAC245A}.Release|Win32.ActiveCfg = Release|Win32
+		{FBCDF292-41C5-40F7-9D45-09235FAC245A}.Release|Win32.Build.0 = Release|Win32
+		{9EAC5276-A8EB-41E7-A302-A6370E03FF96}.Debug|Win32.ActiveCfg = Debug|Win32
+		{9EAC5276-A8EB-41E7-A302-A6370E03FF96}.Debug|Win32.Build.0 = Debug|Win32
+		{9EAC5276-A8EB-41E7-A302-A6370E03FF96}.Release|Win32.ActiveCfg = Release|Win32
+		{9EAC5276-A8EB-41E7-A302-A6370E03FF96}.Release|Win32.Build.0 = Release|Win32
+		{23CBC931-EB7E-492D-BE87-CD9B8205EA14}.Debug|Win32.ActiveCfg = Debug|Win32
+		{23CBC931-EB7E-492D-BE87-CD9B8205EA14}.Debug|Win32.Build.0 = Debug|Win32
+		{23CBC931-EB7E-492D-BE87-CD9B8205EA14}.Release|Win32.ActiveCfg = Release|Win32
+		{23CBC931-EB7E-492D-BE87-CD9B8205EA14}.Release|Win32.Build.0 = Release|Win32
+		{3F042CD9-5CA5-417F-BC48-8D2C223A9101}.Debug|Win32.ActiveCfg = Debug|Win32
+		{3F042CD9-5CA5-417F-BC48-8D2C223A9101}.Debug|Win32.Build.0 = Debug|Win32
+		{3F042CD9-5CA5-417F-BC48-8D2C223A9101}.Release|Win32.ActiveCfg = Release|Win32
+		{3F042CD9-5CA5-417F-BC48-8D2C223A9101}.Release|Win32.Build.0 = Release|Win32
+		{DF29CD57-C8F0-42E4-94D0-2E5248531207}.Debug|Win32.ActiveCfg = Debug|Win32
+		{DF29CD57-C8F0-42E4-94D0-2E5248531207}.Debug|Win32.Build.0 = Debug|Win32
+		{DF29CD57-C8F0-42E4-94D0-2E5248531207}.Release|Win32.ActiveCfg = Release|Win32
+		{DF29CD57-C8F0-42E4-94D0-2E5248531207}.Release|Win32.Build.0 = Release|Win32
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		QtVersion = $(DefaultQtVersion)
+	EndGlobalSection
+EndGlobal
